@@ -31,7 +31,9 @@ body {
     height: 128px;
     display: block;
     margin: 40px auto 20px;
-    border-radius: 50%;
+    box-shadow: 0 0 40px 10px #ffffff47;
+    /* border-radius: 10px; */
+    border-radius: 25%;
     -webkit-tap-highlight-color: transparent;
 }
 
