@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
 :root {
-    --bgColor: #223344;
-    --bgColor2: #090a0f;
+    --bgColor: #ff9049;
+    --bgColor2: #4f1b6f;
     --rainbow: linear-gradient(90deg, #f00, rgb(255, 145, 0), #ff0, #0f0, #0aa, #75d5eb, #fdafc7, #fff, #fdafc7, #75d5eb, #00f, rgb(137, 0, 216), #f00);
     --accentColor: #FFF;
     --font: 'Karla', sans-serif;
@@ -14,7 +14,8 @@ body {
     padding: 0;
     min-height: 100vh;
     font-family: var(--font);
-    background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
+    background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, #ec6770 15%, var(--bgColor2) 70%, #1f0159 100%);
+    /* background: image('./images/background.png') */
     background-size: 150vh;
     opacity: 0;
     animation: 1s ease-out .5s 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
