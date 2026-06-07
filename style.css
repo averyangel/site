@@ -21,6 +21,7 @@ body {
     animation: 1s ease-out .5s 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     position: relative;
 }
