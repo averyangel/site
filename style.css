@@ -7,22 +7,44 @@
     --accentColor: #FFF;
     --font: 'Karla', sans-serif;
     --delay: 3s;
+    --webkit-overflow-scrolling: touch
 }
+
+html {
+    background-image: url('./images/dreamsky.jpg');
+    background-size: 150vh;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+}   
+
+#wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: scroll; 
+}
+
+@supports (-webkit-touch-callout: inherit) {
+    background-attachment: fixed;
+  }
 
 body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
     font-family: var(--font);
-    background: radial-gradient(ellipse 250vw 85% at bottom, var(--bgColor) 0%, #ec6770 15%, var(--bgColor2) 70%, #1f0159 100%);
-    /* background: image('./images/background.png') */
-    background-size: 150vh;
+    /* background: radial-gradient(ellipse 250vw 85% at bottom, var(--bgColor) 0%, #ec6770 15%, var(--bgColor2) 70%, #1f0159 100%); */
+
     opacity: 0;
     animation: 1s ease-out .5s 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+
     position: relative;
 }
 
