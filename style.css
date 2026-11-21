@@ -51,17 +51,18 @@ body {
 #profilePicture, #profilePicture img {
     position: relative;
     width: 75vw;
+    max-width: 500px;
     display: block;
     margin: 40px auto 20px;
-    box-shadow: 0 0 40px 10px #ffffff47;
+    box-shadow: 0 0 70px 25px #ffffff69;
     /* border-radius: 10px; */
-    border-radius: 10%;
+    border-radius: 7%;
     -webkit-tap-highlight-color: transparent;
 }
 
 #userName {
     color: var(--accentColor);
-    font-size: 1.75rem;
+    font-size: 2.5rem;
     font-weight: bold;
     line-height: 1.25;
     display: block;
